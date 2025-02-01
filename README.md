@@ -14,3 +14,8 @@ Designed and deployed a distributed cloud-based automation platform with custom 
 
 •	Deployment: Exposed via Flask/Gunicorn REST API, and hosted on DigitalOcean for high availability.
 
+Sending Requests:
+![image](https://github.com/user-attachments/assets/1c0f8147-7de3-4544-a249-74eccc6cdf6b)
+
+Getting Content:
+![image](https://github.com/user-attachments/assets/377ba236-60ee-494f-8d2c-20f869235156)
