@@ -1,4 +1,6 @@
-# Flying-Zombie Scalable Distributed Bot-Detection Countering Automation System
+# Flying-Zombie 
+
+Scalable Distributed Bot-Detection Countering Automation System
 
 Designed and deployed a distributed cloud-based automation platform with custom automation framework (Small Zombie), to bypass enterprise bot-detection systems (Cloudflare, Facebook, Tinder, Bet365), achieveing 95% successe rate avoding detection.
 
