@@ -22,7 +22,7 @@ Cloud platform with Asyncio server, Worker Orchestration and custom automation f
 
 
 
-`Cloud-based Headful Webdriver Pharsing (local view):`
+`WebDriver On Cloud`
 
 ![image](https://github.com/user-attachments/assets/a738e54e-3a46-4a38-b711-55878b1db190)
 
