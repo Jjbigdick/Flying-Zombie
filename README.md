@@ -14,12 +14,15 @@ Cloud platform with Asyncio server, Worker Orchestration and custom automation f
 
 •	Deployment: Exposed via Flask/Gunicorn REST API, and hosted on DigitalOcean for high availability.
 
-Sending Requests and getting content:
-
-![image](https://github.com/user-attachments/assets/44cf2641-159c-493d-b549-5f492fae1bc3)
 
 
-Cloud-based Headful Webdriver Pharsing (local view):
+`Sending Requests and getting content:`
+
+![image](https://github.com/user-attachments/assets/b9a499d4-950a-49cc-a095-8f71a229a93f)
+
+
+
+`Cloud-based Headful Webdriver Pharsing (local view):`
 
 ![image](https://github.com/user-attachments/assets/a738e54e-3a46-4a38-b711-55878b1db190)
 
