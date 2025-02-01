@@ -18,7 +18,8 @@ Cloud platform with Asyncio server, Worker Orchestration and custom automation f
 
 `Sending Requests and getting content:`
 
-![image](https://github.com/user-attachments/assets/b9a499d4-950a-49cc-a095-8f71a229a93f)
+![image](https://github.com/user-attachments/assets/75fd4969-15c9-4352-89fb-495f0566e222)
+
 
 
 
