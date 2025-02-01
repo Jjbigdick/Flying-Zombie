@@ -22,7 +22,7 @@ Getting Content:
 
 ![image](https://github.com/user-attachments/assets/377ba236-60ee-494f-8d2c-20f869235156)
 
-Cloud-based Headful Webdriver Pharsing (luanching in local):
+Cloud-based Headful Webdriver Pharsing (local view):
 
-![image](https://github.com/user-attachments/assets/f393bd15-df53-47a6-80de-c89916fc9acb)
+![image](https://github.com/user-attachments/assets/a738e54e-3a46-4a38-b711-55878b1db190)
 
