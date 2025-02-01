@@ -2,7 +2,7 @@
 
 Cloud-based Scalable Bot-Detection Countering Platform
 
-Designed and deployed a distributed cloud-based automation platform with custom automation framework (Small Zombie), to bypass enterprise bot-detection systems (Cloudflare, Facebook, Tinder, Bet365), achieveing 95% successe rate avoding detection.
+Cloud platform with Asyncio server, Worker Orchestration and custom automation framework (Small Zombie), automated farming website content by request command. Bypass enterprise bot-detection systems (Cloudflare, Facebook, Tinder, Bet365) with 95% success rate.
 
 •	Architecture:
 
