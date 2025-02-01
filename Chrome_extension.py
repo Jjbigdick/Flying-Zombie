@@ -17,38 +17,18 @@ def create_auth_proxy_extensions(name, PROXY_HOST, PROXY_PORT, PROXY_USER, PROXY
         "webRequestAuthProvider"
         ],
     "host_permissions": [
-        "<all_urls>"
+   
     ],
     "background": {
-        "service_worker": "background.js"
+    
     },
     "minimum_chrome_version":"22.0.0"
 }
     """
 
     background_js = """
-var config = {
-        mode: "fixed_servers",
-        rules: {
-        singleProxy: {
-            scheme: "http",
-            host: "%s",
-            port: parseInt(%s)
-        },
-        bypassList: ["localhost"]
-        }
-    };
 
-chrome.proxy.settings.set({value: config, scope: "regular"}, function() {});
 
-function callbackFn(details) {
-    return {
-        authCredentials: {
-            username: "%s",
-            password: "%s"
-        }
-    };
-}
 
 chrome.webRequest.onAuthRequired.addListener(
             callbackFn,
