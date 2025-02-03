@@ -5,12 +5,9 @@ Cloud-based Scalable Bot-Detection Countering Platform
 Cloud platform with Asyncio server, Worker Orchestration and custom automation framework (Small Zombie), automated farming website content by request command. Bypass enterprise bot-detection systems (Cloudflare, Facebook, Tinder, Bet365) with 95% success rate.
 
 •	Architecture:
-
-    o	API Gateway: AsyncIO server handling JWT authentication, IP whitelisting, and raw HTTP socket validation to block malicious payloads.  
-
-    o	Worker Orchestration: Managed 8+ concurrent headless browser instances (multiprocessing) to execute tasks (scraping, interactions) with 95% success rate against anti-bot systems.
-
-    o	Security: Rate limiting, SQL-based IP failure tracking (block after 10 failures), and request parsing for server stability.  
+    - API Gateway: AsyncIO server handling JWT authentication, IP whitelisting, and raw HTTP socket validation to block malicious payloads.
+    - Worker Orchestration: Managed 8+ concurrent headless browser instances (multiprocessing) to execute tasks (scraping, interactions) with 95% success rate against anti-bot systems.
+    - Security Layer: Rate limiting, SQL-based IP failure tracking (block after 10 failures), and request parsing for server stability.  
 
 •	Deployment: Exposed via Flask/Gunicorn REST API, and hosted on DigitalOcean for high availability.
 
