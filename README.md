@@ -1,6 +1,6 @@
 # Flying-Zombie 
 
-Cloud-based Scalable Platform with Asyncio server, Worker Orchestration and custom automation framework (Small Zombie), automated farming website content by request command. Bypass enterprise bot-detection systems (Cloudflare, Facebook, Tinder, Bet365) with 95% success rate.
+Cloud-based Scalable Platform. Bypass enterprise bot-detection systems (Cloudflare, Facebook, Tinder, Bet365) with 95% success rate.
 
 •	Architecture:
    - API Gateway:
