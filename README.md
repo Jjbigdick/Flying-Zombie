@@ -5,43 +5,6 @@
 
 ![Demo: Automated Cloudflare 5s Challenge Bypass](https://github.com/user-attachments/assets/75fd4969-15c9-4352-89fb-495f0566e222)  
 
-
-## 📖 Usage
-### Python API Example
-```python
-import requests
-
-# Bypass Cloudflare protectiona
-response = requests.post(
-    "http://localhost:8000/v1/bypass",
-    headers={
-        "Authorization": "Bearer YOUR_JWT_TOKEN",  # Replace with your token
-        "Content-Type": "application/json"
-    },
-    json={
-        "url": "https://protected-site.com",
-        "action": "scrape_html",  # Available actions: scrape_html, fetch_screenshot
-        "proxy": "user:pass@1.1.1.1:8080"  # Optional proxy configuration
-    },
-    timeout=30  # Max execution time in seconds
-)
-```
-### Response handling
-```python
-if response.status_code == 200:
-    print("Success:", response.json())
-else:
-    print(f"Error {response.status_code}:", response.text)
-```
-
-### Response Structure
-```json
-{
-  "status": "success",
-  "html": "<html>...",  # Full page HTML after bypass
-  "metrics": {...}      # Load times/fingerprint details
-}
-```
 ## 🚀 Features  
 - **Bot Detection Evasion**  
   - Bypasses Cloudflare 5s challenge, Tinder Swiper, and Bet365 scraping protection.  
@@ -80,10 +43,41 @@ else:
 - **Browser Automation**: Small Zombie, pyvirtualdisplay.  
 - **Infra**: DigitalOcean (Ubuntu 22.04), Docker, Redis (task queue).  
 
-**Run Locally**:  
-```bash  
-docker build -t flying-zombie .  
-docker run -p 8000:8000 -e API_KEY=your_key flying-zombie
+## 📖 Usage
+### Python API Example
+```python
+import requests
+
+# Bypass Cloudflare protectiona
+response = requests.post(
+    "http://localhost:8000/v1/bypass",
+    headers={
+        "Authorization": "Bearer YOUR_JWT_TOKEN",  # Replace with your token
+        "Content-Type": "application/json"
+    },
+    json={
+        "url": "https://protected-site.com",
+        "action": "scrape_html",  # Available actions: scrape_html, fetch_screenshot
+        "proxy": "user:pass@1.1.1.1:8080"  # Optional proxy configuration
+    },
+    timeout=30  # Max execution time in seconds
+)
+```
+### Response handling
+```python
+if response.status_code == 200:
+    print("Success:", response.json())
+else:
+    print(f"Error {response.status_code}:", response.text)
+```
+
+### Response Structure
+```json
+{
+  "status": "success",
+  "html": "<html>...",  # Full page HTML after bypass
+  "metrics": {...}      # Load times/fingerprint details
+}
 ```
 ---
 ## 🛠️ DEMO
