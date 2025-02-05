@@ -67,7 +67,8 @@ else:
    - Human-like interactions: viewport resizing, mouse movements.  
 3. **Anti-Detection**  
    - Custom TLS fingerprint rotation.  
-   - Request throttling and session randomization.  
+   - Request throttling and session randomization.
+   - Proxy Rotating via Proxy API
 
 ![System Diagram](https://github.com/user-attachments/assets/a738e54e-3a46-4a38-b711-55878b1db190)  
 
@@ -91,3 +92,8 @@ https://streamable.com/lgpqvu
 https://streamable.com/o2g281
 ### Cloudflare
 https://streamable.com/b5xdjw
+
+---
+## Future Roadmap
+- Desgin and tntegrated with ML Bot for dynamic handling page loading (which further improves loading time).
+- Smart handling page loading such as detecting page loading status.
