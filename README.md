@@ -69,11 +69,10 @@ else:
    - AsyncIO server with JWT, IP whitelisting, and HTTP validation.  
    - Blocks malicious payloads using regex pattern matching.  
 2. **Worker Nodes**  
-   - Dockerized Selenium/Playwright instances with Xvfb (virtual display).  
+   - Small Zombie instances with Xvfb (virtual display).  
    - Human-like interactions: viewport resizing, mouse movements.  
 3. **Anti-Detection**  
-   - Custom TLS fingerprint rotation.  
-   - Request throttling and session randomization.
+   - Small Zombie Instances
    - Proxy Rotating via Proxy API
 
 ![System Diagram](https://github.com/user-attachments/assets/a738e54e-3a46-4a38-b711-55878b1db190)  
