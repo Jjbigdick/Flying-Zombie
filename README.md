@@ -85,7 +85,7 @@ else:
 
 ---
 ## Small Zombie - DEMO
-### Bet365
+### Bet365 (Small Zombie Comparsion with Playwright)
 https://streamable.com/lgpqvu
 ### Facebook
 https://streamable.com/o2g281
