@@ -27,12 +27,12 @@ response = requests.post(
 )
 ```
 # Response handling
+```python
 if response.status_code == 200:
     print("Success:", response.json())
 else:
     print(f"Error {response.status_code}:", response.text)
----
-
+```
 ## 🚀 Features  
 - **Bot Detection Evasion**  
   - Bypasses Cloudflare 5s challenge, Tinder Swiper, and Bet365 scraping protection.  
