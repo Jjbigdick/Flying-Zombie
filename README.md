@@ -21,7 +21,6 @@ response = requests.post(
     json={
         "url": "https://protected-site.com",
         "action": "scrape_html",  # Available actions: scrape_html, fetch_screenshot
-        "viewport": "1920x1080",  # Common resolutions: 1366x768, 1920x1080
         "proxy": "user:pass@1.1.1.1:8080"  # Optional proxy configuration
     },
     timeout=30  # Max execution time in seconds
