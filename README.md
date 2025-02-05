@@ -5,8 +5,7 @@
 
 ![Demo: Automated Cloudflare 5s Challenge Bypass](https://github.com/user-attachments/assets/75fd4969-15c9-4352-89fb-495f0566e222)  
 
-`
-import requests  
+
 ## 📖 Usage
 ### Python API Example
 ```python
