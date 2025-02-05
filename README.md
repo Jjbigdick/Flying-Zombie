@@ -26,12 +26,21 @@ response = requests.post(
     timeout=30  # Max execution time in seconds
 )
 ```
-# Response handling
+### Response handling
 ```python
 if response.status_code == 200:
     print("Success:", response.json())
 else:
     print(f"Error {response.status_code}:", response.text)
+```
+
+### Response Structure
+```json
+{
+  "status": "success",
+  "html": "<html>...",  # Full page HTML after bypass
+  "metrics": {...}      # Load times/fingerprint details
+}
 ```
 ## 🚀 Features  
 - **Bot Detection Evasion**  
@@ -64,6 +73,9 @@ else:
 
 ## 🛠️ Deployment  
 **Stack**:  
+**Concurrency & Scaling**:  
+- AsyncIO (handles 150+ concurrent network requests)  
+- Multiprocessing (isolates browser instances for stability)
 - **Backend**: Python, Flask, Gunicorn (WSGI).  
 - **Browser Automation**: Small Zombie, pyvirtualdisplay.  
 - **Infra**: DigitalOcean (Ubuntu 22.04), Docker, Redis (task queue).  
