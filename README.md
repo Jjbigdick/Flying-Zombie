@@ -51,11 +51,9 @@ else:
 - **Bot-Detection and Page Smart-Loading Mechanisms**
   - Dynamic determing if bot-detection evaded and page is loaded.
   - With a maximum 30s tiemr for server responses.
-- **High Concurrency**  
-  - Managed pool of 8+ Small Zombie instances (Chrome).  
-  - Multiprocess task distribution with 99% payload validation.
-- **Scalability**
-  - One distrubuting system can dynamic scalling depending on server ability.
+- **High Concurrency and dynamic Scalability**  
+  - One distributed system handling a pool of 8+ Small Zombie instances (Chrome), depending on machine capability.  
+  - Flask, Asyncio asynchornous handling requests.
 - **Security-First Design**  
   - SQL-based IP reputation tracking (blocks after 10 failed attempts).  
   - JWT authentication + rotating proxy support for stealth.  
