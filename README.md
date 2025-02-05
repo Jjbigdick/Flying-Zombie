@@ -6,13 +6,7 @@
 For persoanal interests only, user advised.
 
 ![Demo: Automated Cloudflare 5s Challenge Bypass](https://github.com/user-attachments/assets/75fd4969-15c9-4352-89fb-495f0566e222)  
-## Small Zombie - DEMO
-### Bet365
-https://streamable.com/lgpqvu
-### Facebook
-https://streamable.com/o2g281
-### Cloudflare
-https://streamable.com/b5xdjw
+
 
 ## 📖 Usage
 ### Python API Example
@@ -90,7 +84,10 @@ else:
 
 
 ---
-## 🛠️ DEMO
+## Small Zombie - DEMO
+### Bet365
+https://streamable.com/lgpqvu
 ### Facebook
-
-User Reponsibility.
+https://streamable.com/o2g281
+### Cloudflare
+https://streamable.com/b5xdjw
