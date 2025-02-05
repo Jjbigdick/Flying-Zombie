@@ -38,7 +38,7 @@ else:
   - Bypasses Cloudflare 5s challenge, Tinder Swiper, and Bet365 scraping protection.  
   - Uses virtual displays (Xvfb) for undetectable browser automation.  
 - **High Concurrency**  
-  - Managed pool of 10+ Selenium/Playwright instances (Chrome/Firefox).  
+  - Managed pool of 8+ Small Zombie instances (Chrome).  
   - Multiprocess task distribution with 99% payload validation.  
 - **Security-First Design**  
   - SQL-based IP reputation tracking (blocks after 10 failed attempts).  
@@ -65,7 +65,7 @@ else:
 ## 🛠️ Deployment  
 **Stack**:  
 - **Backend**: Python, Flask, Gunicorn (WSGI).  
-- **Browser Automation**: Selenium, Playwright, pyvirtualdisplay.  
+- **Browser Automation**: Small Zombie, pyvirtualdisplay.  
 - **Infra**: DigitalOcean (Ubuntu 22.04), Docker, Redis (task queue).  
 
 **Run Locally**:  
