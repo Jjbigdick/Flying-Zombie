@@ -1,68 +1,48 @@
-# Flying-Zombie 
+# Flying-Zombie: Distributed Bot Detection Bypass Platform  
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://python.org) [![AsyncIO](https://img.shields.io/badge/AsyncIO-Enabled-green)](https://docs.python.org/3/library/asyncio.html) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)  
 
-Cloud-Based Distributed Platform for Bypassing Enterprise Bot Detection
+**A scalable cloud platform for bypassing enterprise bot detection systems (Cloudflare, Facebook, Tinder) using browser automation and anti-detection techniques.**  
 
-Scalable system automating interactions with bot-protected platforms (Cloudflare, Facebook) using managed browser instances.
-Key Features
+![Demo: Automated Cloudflare 5s Challenge Bypass](https://github.com/user-attachments/assets/75fd4969-15c9-4352-89fb-495f0566e222)  
 
-    Bot Detection Evasion:
-        Successfully bypasses Cloudflare (5s challenge), Tinder Swiper, and Bet365 anti-scraping.
-        Uses virtual displays (Xvfb) for undetectable browser rendering in cloud environments.
-    Distributed Architecture:
-        API Gateway: AsyncIO server with JWT authentication, IP whitelisting, and raw HTTP validation (blocks 99% malicious payloads).
-        Workers: 10+ concurrent Selenium/Playwright instances (Chrome/Firefox) managed via multiprocessing.
-    Security & Stability:
-        SQL-based IP failure tracking (auto-block after 10 violations).
-        Request rate limiting, randomized user-agent/viewport rotation.
+---
 
-Technical Architecture
+## 🚀 Features  
+- **Bot Detection Evasion**  
+  - Bypasses Cloudflare 5s challenge, Tinder Swiper, and Bet365 scraping protection.  
+  - Uses virtual displays (Xvfb) for undetectable browser automation.  
+- **High Concurrency**  
+  - Managed pool of 10+ Selenium/Playwright instances (Chrome/Firefox).  
+  - Multiprocess task distribution with 99% payload validation.  
+- **Security-First Design**  
+  - SQL-based IP reputation tracking (blocks after 10 failed attempts).  
+  - JWT authentication + rotating proxy support for stealth.  
 
-1. Client Request → JWT Auth → Task Queue  
-2. Worker Nodes:  
-   - Virtual Display (Xvfb) → Chrome/Firefox → Human-like Interactions  
-3. Anti-Detection:  
-   - Viewport randomization  
-   - Request throttling (simulate organic traffic)  
-4. Response → Parsed HTML/API Data  
+---
 
-Deployment
+## 🧠 Architecture  
+### Components  
+1. **API Gateway**  
+   - AsyncIO server with JWT, IP whitelisting, and HTTP validation.  
+   - Blocks malicious payloads using regex pattern matching.  
+2. **Worker Nodes**  
+   - Dockerized Selenium/Playwright instances with Xvfb (virtual display).  
+   - Human-like interactions: viewport resizing, mouse movements.  
+3. **Anti-Detection**  
+   - Custom TLS fingerprint rotation.  
+   - Request throttling and session randomization.  
 
-    API: Flask + Gunicorn (4 workers, 12 threads).
-    Infrastructure: Deployed on DigitalOcean (Ubuntu 22.04 + Xvfb).
-    Scaling: Dockerized nodes with Redis task distribution.
+![System Diagram](https://github.com/user-attachments/assets/a738e54e-3a46-4a38-b711-55878b1db190)  
 
-Usage Example
+---
 
-import requests
+## 🛠️ Deployment  
+**Stack**:  
+- **Backend**: Python, Flask, Gunicorn (WSGI).  
+- **Browser Automation**: Selenium, Playwright, pyvirtualdisplay.  
+- **Infra**: DigitalOcean (Ubuntu 22.04), Docker, Redis (task queue).  
 
-# Bypass Cloudflare protection  
-response = requests.post(
-    "https://api.flying-zombie.com/v1/scrape",
-    headers={"Authorization": "Bearer YOUR_JWT"},
-    json={
-        "url": "https://target-site.com",
-        "action": "extract_data",
-        "viewport_size": "1920x1080"
-    }
-)
-print(response.json())  # Returns HTML + bypass metadata
-
-![image](https://github.com/user-attachments/assets/75fd4969-15c9-4352-89fb-495f0566e222)
-
-•	Architecture:
-   - API Gateway: AsyncIO server handling JWT authentication, IP whitelisting, and raw HTTP socket validation to block malicious payloads.
-   - Worker Orchestration: Managed 8+ concurrent headless browser instances (multiprocessing) to execute tasks (scraping, interactions) with 95% success rate against anti-bot systems.
-   - Security Layer: Rate limiting, SQL-based IP failure tracking (block after 10 failures), and request parsing for server stability.  
-
-•	Deployment: Exposed via Flask/Gunicorn REST API, and hosted on DigitalOcean for high availability.
-
-
-
-
-
-
-
-Cloudflare:
-
-![image](https://github.com/user-attachments/assets/a738e54e-3a46-4a38-b711-55878b1db190)
-
+**Run Locally**:  
+```bash  
+docker build -t flying-zombie .  
+docker run -p 8000:8000 -e API_KEY=your_key flying-zombie  
