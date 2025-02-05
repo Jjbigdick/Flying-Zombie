@@ -1,6 +1,6 @@
 # Flying-Zombie 
 
-A Cloud-based Distrubited Platform able to fast bypass enterprise bot-detection systems (Cloudflare, Facebook, Tinder, Bet365) thorough user API calling.
+A Cloud-based Distrubited Platform integrated with Small Zombie, self-created able to fast bypass enterprise bot-detection systems (Cloudflare, Facebook, Tinder, Bet365) thorough user API calling.
 
 ![image](https://github.com/user-attachments/assets/75fd4969-15c9-4352-89fb-495f0566e222)
 
