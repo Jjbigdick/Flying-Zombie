@@ -48,7 +48,7 @@ else:
 - **Bot Detection Evasion**  
   - Bypasses Cloudflare 5s challenge, Tinder Swiper, and Bet365 scraping protection.  
   - Uses virtual displays (Xvfb) for undetectable browser automation.
-- **Smart-Loading Mechanism**
+- **Bot-Detection and Page Smart-Loading Mechanisms**
   - Dynamic determing if bot-detection evaded and page is loaded.
   - With a maximum 30s tiemr for server responses.
 - **High Concurrency**  
