@@ -4,7 +4,7 @@
 **API-Bound, Cloud-Based Distributed Platform. Managing 8+ Small Zombie Instances for Remote Data Farming and Bot-Detection Countering (Bet365, Facebook, Tinder, Cloudflare). Impelement ground level HTTP socket checkers and SQL-based authentication for blocking malicious requests which further releasing system payload.**  
 
 ![Demo: Automated Cloudflare 5s Challenge Bypass](https://github.com/user-attachments/assets/75fd4969-15c9-4352-89fb-495f0566e222)  
-## DEMO
+## Small Zombie - DEMO
 ### Bet365
 https://streamable.com/lgpqvu
 ### Facebook
