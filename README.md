@@ -1,7 +1,7 @@
 # Flying-Zombie: Distributed Bot Detection Bypass Platform  
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://python.org) [![AsyncIO](https://img.shields.io/badge/AsyncIO-Enabled-green)](https://docs.python.org/3/library/asyncio.html) 
 
-**API-Bound, Cloud-Based Distributed Platform. Managed 8+ Small Zombie Instances for Remote Data Farming and Bot-Detection Countering (Bet365, Facebook, Tinder, Cloudflare)**  
+**API-Bound, Cloud-Based Distributed Platform. Managing 8+ Small Zombie Instances for Remote Data Farming and Bot-Detection Countering (Bet365, Facebook, Tinder, Cloudflare)**  
 
 ![Demo: Automated Cloudflare 5s Challenge Bypass](https://github.com/user-attachments/assets/75fd4969-15c9-4352-89fb-495f0566e222)  
 ## 📖 Usage
