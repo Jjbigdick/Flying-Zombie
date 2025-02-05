@@ -1,5 +1,5 @@
 # Flying-Zombie: Distributed Bot Detection Bypass Platform  
-[![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://python.org) [![AsyncIO](https://img.shields.io/badge/AsyncIO-Enabled-green)](https://docs.python.org/3/library/asyncio.html) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)  
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://python.org) [![AsyncIO](https://img.shields.io/badge/AsyncIO-Enabled-green)](https://docs.python.org/3/library/asyncio.html) 
 
 **A scalable cloud platform for bypassing enterprise bot detection systems (Cloudflare, Facebook, Tinder) using browser automation and anti-detection techniques.**  
 
