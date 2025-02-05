@@ -71,4 +71,8 @@ else:
 **Run Locally**:  
 ```bash  
 docker build -t flying-zombie .  
-docker run -p 8000:8000 -e API_KEY=your_key flying-zombie  
+docker run -p 8000:8000 -e API_KEY=your_key flying-zombie
+```
+---
+## 🛠️ DEMO
+### Facebook
