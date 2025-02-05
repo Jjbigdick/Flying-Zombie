@@ -48,6 +48,7 @@ else:
 - **Bot Detection Evasion**  
   - Bypasses Cloudflare 5s challenge, Tinder Swiper, and Bet365 scraping protection.  
   - Uses virtual displays (Xvfb) for undetectable browser automation.
+  - Rotating proxy support for stealth
 - **Bot-Detection and Page Smart-Loading Mechanisms**
   - Dynamic determing if bot-detection evaded and page is loaded.
   - With a maximum 30s tiemr for server responses.
@@ -55,8 +56,10 @@ else:
   - One distributed system handling a pool of 8+ Small Zombie instances (Chrome), depending on machine capability.  
   - Flask, Asyncio asynchornous handling requests.
 - **Security-First Design**  
-  - SQL-based IP reputation tracking (blocks after 10 failed attempts).  
-  - JWT authentication + rotating proxy support for stealth.  
+  - SQL-based IP reputation tracking (blocks after 10 failed attempts).
+  - HTTP token filtering
+- **User Firendly Design** 
+  
 
 ---
 
