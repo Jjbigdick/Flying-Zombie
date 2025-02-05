@@ -53,7 +53,9 @@ else:
   - With a maximum 30s tiemr for server responses.
 - **High Concurrency**  
   - Managed pool of 8+ Small Zombie instances (Chrome).  
-  - Multiprocess task distribution with 99% payload validation.  
+  - Multiprocess task distribution with 99% payload validation.
+- **Scalability**
+  - One distrubuting system can dynamic scalling depending on server ability.
 - **Security-First Design**  
   - SQL-based IP reputation tracking (blocks after 10 failed attempts).  
   - JWT authentication + rotating proxy support for stealth.  
