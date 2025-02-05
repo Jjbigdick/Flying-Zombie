@@ -6,19 +6,6 @@ BACKEND_SERVERS = [("127.0.0.1", 8081), ("127.0.0.1", 8082)]  # List of backend 
 
 
 
-def start_server():
-    server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server.bind(('0.0.0.0', 8080))
-    server.listen(5)
-    print("[*] Listening on 0.0.0.0:8080")
-
-    while True:
-        client, addr = server.accept()
-        print(f"[*] Accepted connection from {addr[0]}:{addr[1]}")
-        client_handler = threading.Thread(target=handle_client, args=(client,))
-        client_handler.start()
-
-
 def handle_client(client_socket):
     request = client_socket.recv(4096)
     backend_index = hash(request) % len(BACKEND_SERVERS)  # Simple load balancing logic
@@ -44,5 +31,3 @@ if __name__ == "__main__":
         print(f"[*] Accepted connection from {addr[0]}:{addr[1]}")
         client_handler = threading.Thread(target=handle_client, args=(client,))
         client_handler.start()
-
-    start_server()
