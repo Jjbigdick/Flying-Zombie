@@ -5,8 +5,34 @@
 
 ![Demo: Automated Cloudflare 5s Challenge Bypass](https://github.com/user-attachments/assets/75fd4969-15c9-4352-89fb-495f0566e222)  
 
----
+`
+import requests  
+## 📖 Usage
+### Python API Example
+```python
+import requests
 
+# Bypass Cloudflare protection
+response = requests.post(
+    "http://localhost:8000/v1/bypass",
+    headers={
+        "Authorization": "Bearer YOUR_JWT_TOKEN",  # Replace with your token
+        "Content-Type": "application/json"
+    },
+    json={
+        "url": "https://protected-site.com",
+        "action": "scrape_html",  # Available actions: scrape_html, fetch_screenshot
+        "viewport": "1920x1080",  # Common resolutions: 1366x768, 1920x1080
+        "proxy": "user:pass@1.1.1.1:8080"  # Optional proxy configuration
+    },
+    timeout=30  # Max execution time in seconds
+)
+
+# Response handling
+if response.status_code == 200:
+    print("Success:", response.json())
+else:
+    print(f"Error {response.status_code}:", response.text)
 ## 🚀 Features  
 - **Bot Detection Evasion**  
   - Bypasses Cloudflare 5s challenge, Tinder Swiper, and Bet365 scraping protection.  
