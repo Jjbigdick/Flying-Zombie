@@ -1,7 +1,7 @@
 # Flying-Zombie: Distributed Bot Detection Bypass Platform  
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://python.org) [![AsyncIO](https://img.shields.io/badge/AsyncIO-Enabled-green)](https://docs.python.org/3/library/asyncio.html) 
 
-**A scalable cloud platform for bypassing enterprise bot detection systems (Cloudflare, Facebook, Tinder) using browser automation and anti-detection techniques for data farming and bot automation**  
+**A scalable cloud platform integrated with Small Zombie (a self-desgined WebDriver) for bypassing enterprise bot detection systems (Cloudflare, Facebook, Tinder) using browser automation and anti-detection techniques for data farming and bot automation**  
 
 ![Demo: Automated Cloudflare 5s Challenge Bypass](https://github.com/user-attachments/assets/75fd4969-15c9-4352-89fb-495f0566e222)  
 
