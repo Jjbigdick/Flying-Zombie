@@ -7,6 +7,8 @@
 ## DEMO
 ### Bet365
 https://streamable.com/lgpqvu
+### Facebook
+https://streamable.com/o2g281
 
 ## 📖 Usage
 ### Python API Example
