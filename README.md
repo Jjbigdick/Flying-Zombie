@@ -1,6 +1,8 @@
 # Flying-Zombie 
 
-Cloud-based Scalable Platform. Bypass enterprise bot-detection systems (Cloudflare, Facebook, Tinder, Bet365) with 95% success rate.
+A Cloud-based Distrubited Platform able to fast bypass enterprise bot-detection systems (Cloudflare, Facebook, Tinder, Bet365) thorough user API calling.
+
+![image](https://github.com/user-attachments/assets/75fd4969-15c9-4352-89fb-495f0566e222)
 
 •	Architecture:
    - API Gateway: AsyncIO server handling JWT authentication, IP whitelisting, and raw HTTP socket validation to block malicious payloads.
@@ -11,14 +13,11 @@ Cloud-based Scalable Platform. Bypass enterprise bot-detection systems (Cloudfla
 
 
 
-`Sending Requests and getting content:`
-
-![image](https://github.com/user-attachments/assets/75fd4969-15c9-4352-89fb-495f0566e222)
 
 
 
 
-`WebDriver On Cloud`
+Cloudflare:
 
 ![image](https://github.com/user-attachments/assets/a738e54e-3a46-4a38-b711-55878b1db190)
 
