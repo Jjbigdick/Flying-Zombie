@@ -1,7 +1,23 @@
-# Flying-Zombie: Distributed Bot Detection Bypass Platform  
+# Flying-Zombie
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://python.org) [![AsyncIO](https://img.shields.io/badge/AsyncIO-Enabled-green)](https://docs.python.org/3/library/asyncio.html) 
 
-**API-Bound, Cloud-Based Distributed Platform. Managing 8+ Small Zombie Instances for Remote Data Farming and Bot-Detection Countering (Bet365, Facebook, Tinder, Cloudflare). Impelement ground-level HTTP socket checkers and SQL-based authentication for blocking malicious requests which further releasing system payload.**  
+Flying Zombie - SaaS Data Collection Platform (Python, 2024)
+Lead Architect & Developer
+•	Designed and deployed a distributed system leveraging asynchronous front-end server (asyncIO, TCP) communicating with parallel backend worker processes ("Small Zombie" - customized headful webdriver) to deliver rendered HTML from bot-protected websites through API
+Technical Achievements:
+•	Anti-Bot Technology: Engineered proprietary solution achieving 100% success rate bypassing enterprise-level bot detection mechanisms
+•	Distributed Architecture: Implemented scalable system with asynchronous server handling client requests while managing parallel backend processing workers
+•	Performance Optimization: 
+o	Integrated intelligent page load detection algorithms with error fallback mechanisms
+o	Implemented HTML compression system reducing bandwidth requirements by [x%]
+o	Developed smart loading algorithms with machine learning capabilities to detect optimal page load status
+Business & Security Features:
+•	User Management: Created token-based API authentication system with SQL database for usage tracking and billing
+•	Security Infrastructure: 
+o	Implemented comprehensive error tracking and logging system
+o	Built robust TCP communication protocol with byte-level security measures
+o	Designed failure recovery mechanisms for system reliability
+
 
 For persoanal interests only, user advised.
 
