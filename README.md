@@ -5,11 +5,12 @@ A distributed platform packed Small Zombie (a headful custimzied webdriver) with
 
 ---
 ## Small Zombie Abilities - DEMO
-### Bet365 
-https://streamable.com/lgpqvu
-### Facebook
+### Bot-Detection Invasion DEMO
+#### Bet365 
+[![image](https://github.com/user-attachments/assets/db853420-ef0e-4dda-a3e2-0c314a2eec36)](https://streamable.com/lgpqvu)
+#### Facebook
 https://streamable.com/o2g281
-### CoinATMRader - Cloudflare - parallel three small zombie instances - full reputation: rensidential proxy
+#### CoinATMRader - Cloudflare - parallel three small zombie instances - full reputation: rensidential proxy
 [![CoinATMrader](https://github.com/user-attachments/assets/0d6f79cf-0eac-4569-bb5e-de1f578bd21e)](https://streamable.com/b5xdjw)
 
 ---
