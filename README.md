@@ -1,9 +1,6 @@
 # Flying-Zombie SaaS Data Collection Platform 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://python.org) [![AsyncIO](https://img.shields.io/badge/AsyncIO-Enabled-green)](https://docs.python.org/3/library/asyncio.html) 
 
-
-
-
 A distributed platform packed Small Zombie (a headful custimzied webdriver) with prallal worker process on Cloud, listen on an asynchronous HTTP server and lucnhing in parallelim process. allow users collecting heavy guarded websites' HTML (such as Cloudflare protected, Facebook) from API calls simple like requests.
 
 ---
@@ -13,6 +10,8 @@ https://streamable.com/lgpqvu
 ### Facebook
 https://streamable.com/o2g281
 ### CoinATMRader - Cloudflare
+
+![System Diagram](https://github.com/user-attachments/assets/a738e54e-3a46-4a38-b711-55878b1db190)  
 https://streamable.com/b5xdjw
 
 ---
@@ -105,7 +104,6 @@ o	Designed failure recovery mechanisms for system reliability
    - Small Zombie Instances
    - Proxy Rotating via Proxy API
 
-![System Diagram](https://github.com/user-attachments/assets/a738e54e-3a46-4a38-b711-55878b1db190)  
 
 ---
 
@@ -119,16 +117,6 @@ o	Designed failure recovery mechanisms for system reliability
 - **Infra**: DigitalOcean (Ubuntu 22.04), Docker, Redis (task queue).  
 
 
----
-## Small Zombie - DEMO
-### Bet365 (Small Zombie Comparsion with Playwright)
-https://streamable.com/lgpqvu
-### Facebook
-https://streamable.com/o2g281
-### Cloudflare
-https://streamable.com/b5xdjw
-
----
 ## Future Roadmap
 - Desgin and tntegrated with ML Bot for dynamic handling page loading (which further improves loading time).
 - Smart handling page loading such as detecting page loading status.
