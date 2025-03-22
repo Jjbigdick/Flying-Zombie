@@ -10,9 +10,7 @@ https://streamable.com/lgpqvu
 ### Facebook
 https://streamable.com/o2g281
 ### CoinATMRader - Cloudflare
-
-![System Diagram](https://github.com/user-attachments/assets/a738e54e-3a46-4a38-b711-55878b1db190)  
-https://streamable.com/b5xdjw
+[![CoinATMrader](https://github.com/user-attachments/assets/0d6f79cf-0eac-4569-bb5e-de1f578bd21e)](https://streamable.com/b5xdjw)
 
 ---
 
@@ -120,3 +118,6 @@ o	Designed failure recovery mechanisms for system reliability
 ## Future Roadmap
 - Desgin and tntegrated with ML Bot for dynamic handling page loading (which further improves loading time).
 - Smart handling page loading such as detecting page loading status.
+
+
+![System Diagram](https://github.com/user-attachments/assets/a738e54e-3a46-4a38-b711-55878b1db190)  
