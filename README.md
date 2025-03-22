@@ -9,24 +9,6 @@ A distributed platform packed Small Zombie (a headful custimzied webdriver) with
 Small Zombie DEMO:
 
 
-Lead Architect & Developer
-    •	Designed and deployed a distributed system leveraging asynchronous front-end server (asyncIO, TCP) communicating with parallel backend worker processes ("Small Zombie" - customized headful webdriver) to deliver rendered HTML from bot-protected websites through API
-Technical Achievements:
-    •	Anti-Bot Technology: Engineered proprietary solution achieving 100% success rate bypassing enterprise-level bot detection mechanisms
-    •	Distributed Architecture: Implemented scalable system with asynchronous server handling client requests while managing parallel backend processing workers
-    •	Performance Optimization: 
-                o	Integrated intelligent page load detection algorithms with error fallback mechanisms
-                o	Implemented HTML compression system reducing bandwidth requirements by [x%]
-                o	Developed smart loading algorithms with machine learning capabilities to detect optimal page load status
-Business & Security Features:
-•	User Management: Created token-based API authentication system with SQL database for usage tracking and billing
-•	Security Infrastructure: 
-o	Implemented comprehensive error tracking and logging system
-o	Built robust TCP communication protocol with byte-level security measures
-o	Designed failure recovery mechanisms for system reliability
-
-
-
 ![Demo: Automated Cloudflare 5s Challenge Bypass](https://github.com/user-attachments/assets/75fd4969-15c9-4352-89fb-495f0566e222)  
 
 
@@ -80,7 +62,24 @@ else:
 - **Security-First Design**  
   - SQL-based IP reputation tracking (blocks after 10 failed attempts).
   - HTTP token filtering
-- **User Firendly Design** 
+- **User Firendly Design**
+- 
+Lead Architect & Developer
+    •	Designed and deployed a distributed system leveraging asynchronous front-end server (asyncIO, TCP) communicating with parallel backend worker processes ("Small Zombie" - customized headful webdriver) to deliver rendered HTML from bot-protected websites through API
+Technical Achievements:
+    •	Anti-Bot Technology: Engineered proprietary solution achieving 100% success rate bypassing enterprise-level bot detection mechanisms
+    •	Distributed Architecture: Implemented scalable system with asynchronous server handling client requests while managing parallel backend processing workers
+    •	Performance Optimization: 
+                o	Integrated intelligent page load detection algorithms with error fallback mechanisms
+                o	Implemented HTML compression system reducing bandwidth requirements by [x%]
+                o	Developed smart loading algorithms with machine learning capabilities to detect optimal page load status
+Business & Security Features:
+•	User Management: Created token-based API authentication system with SQL database for usage tracking and billing
+•	Security Infrastructure: 
+o	Implemented comprehensive error tracking and logging system
+o	Built robust TCP communication protocol with byte-level security measures
+o	Designed failure recovery mechanisms for system reliability
+
   
 
 ---
