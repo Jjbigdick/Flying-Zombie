@@ -9,7 +9,7 @@ A distributed platform packed Small Zombie (a headful custimzied webdriver) with
 https://streamable.com/lgpqvu
 ### Facebook
 https://streamable.com/o2g281
-### CoinATMRader - Cloudflare
+### CoinATMRader - Cloudflare - parallel three small zombie instances - full reputation: rensidential proxy
 [![CoinATMrader](https://github.com/user-attachments/assets/0d6f79cf-0eac-4569-bb5e-de1f578bd21e)](https://streamable.com/b5xdjw)
 
 ---
