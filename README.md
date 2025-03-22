@@ -7,12 +7,12 @@
 A distributed platform packed Small Zombie (a headful custimzied webdriver) with prallal worker process on Cloud, listen on an asynchronous HTTP server and lucnhing in parallelim process. allow users collecting heavy guarded websites' HTML (such as Cloudflare protected, Facebook) from API calls simple like requests.
 
 ---
-## Small Zombie - DEMO
-### Bet365 (Small Zombie Comparsion with Playwright)
+## Small Zombie Abilities - DEMO
+### Bet365 
 https://streamable.com/lgpqvu
 ### Facebook
 https://streamable.com/o2g281
-### Cloudflare
+### CoinATMRader - Cloudflare
 https://streamable.com/b5xdjw
 
 ---
